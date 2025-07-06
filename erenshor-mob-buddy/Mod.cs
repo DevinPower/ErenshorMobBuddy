@@ -122,7 +122,7 @@ namespace erenshor_mob_buddy
             layoutGroup.padding = new RectOffset(10, 10, 4, 4); // ← left, right, top, bottom
 
             foreach (var mobScan in FoundMobs)
-                AddText(mobScan.MobName, layoutGroup.transform, mobScan.Found ? Color.white : Color.grey);
+                AddText(mobScan.MobName, layoutGroup.transform, mobScan.Found ? Color.yellow : Color.grey);
 
             _madeUI = canvasGo;
         }
@@ -152,20 +152,7 @@ namespace erenshor_mob_buddy
 
         IEnumerable<ScanResult> Scan()
         {
-            List<string> AllMobs = new List<string>();
-
-            foreach (var spawnPoint in SpawnPointManager.SpawnPointsInScene)
-            {
-                foreach (var rareSpawn in spawnPoint.RareSpawns)
-                {
-                    string NPCName = rareSpawn.GetComponent<NPC>().NPCName.ToLower();
-                    if (AllMobs.Contains(NPCName))
-                        continue;
-
-                    AllMobs.Add(NPCName);
-                }
-            }
-
+            IEnumerable<string> AllMobs = NPCTable.LiveNPCs.Select((x) => x.NPCName.ToLower());
             return TrackedMobs.Select((tracked) => { return new ScanResult(tracked, AllMobs.Contains(tracked)); });
         }
     }

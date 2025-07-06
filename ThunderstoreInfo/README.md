@@ -6,6 +6,11 @@ Ex:
 
 Names aren't case sensitive but do need to be exact. Typing the same name in again will remove that entry. Typing ```/track clear``` will remove all mobs.
 
+# Changelog
+## 1.0.1
+- Mob status now accurately reflected in side panel.
+- Active mobs in side panel are now displayed in yellow.
+
 # Known Issues
 
 # Thanks

@@ -1,6 +1,6 @@
 {
     "name": "Erenshor_Mob_Buddy",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "website_url": "https://github.com/DevinPower/ErenshorMobBuddy",
     "description": "Sidepanel for tracking mobs in the zone.",
     "dependencies": [
