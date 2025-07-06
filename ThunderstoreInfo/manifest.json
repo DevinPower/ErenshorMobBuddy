@@ -1,0 +1,9 @@
+{
+    "name": "Erenshor_Mob_Buddy",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/DevinPower/ErenshorMobBuddy",
+    "description": "Sidepanel for tracking mobs in the zone.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

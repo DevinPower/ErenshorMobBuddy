@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "erenshor-mob-buddy", "erenshor-mob-buddy.csproj", "{4DCC0E65-7ADA-4198-8E65-A667443B604C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DCC0E65-7ADA-4198-8E65-A667443B604C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCC0E65-7ADA-4198-8E65-A667443B604C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCC0E65-7ADA-4198-8E65-A667443B604C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCC0E65-7ADA-4198-8E65-A667443B604C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC470E2E-C86A-40F5-8785-94B0A8A7A159}
+	EndGlobalSection
+EndGlobal
